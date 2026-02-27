@@ -1,0 +1,608 @@
+{
+  "title": "Exam 2 Review Spring 2026",
+  "question_count": 60,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the difference between sensation and perception?",
+      "options": {
+        "a": "Sensation involves hormones; perception involves neurotransmitters.",
+        "b": "Sensation happens in the brainstem; perception happens in the forebrain.",
+        "c": "Sensation is a physical process; perception is a mental process."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 2,
+      "question": "As Sarah reads an article on her tablet, the device produces light waves. Neurons in her eyes sense the light and send electrical impulses to her brain, which interprets them as words and pictures. Which object in the scenario is a sensory stimulus?",
+      "options": {
+        "a": "the electrical impulses",
+        "b": "the light waves",
+        "c": "the neurons"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 3,
+      "question": "A bird sings outside of Ryan’s window. The sound waves cause Ryan’s eardrums to vibrate, stimulating sensory receptors that send electrical impulses to his brain. His brain interprets these impulses to create his experience. Which of the following describes the process of perception in this scenario?",
+      "options": {
+        "a": "Ryan’s brain interprets the electrical impulses as subjective experience.",
+        "b": "The bird’s vocal cords cause the air to vibrate, producing sound waves.",
+        "c": "Ryan’s eardrums vibrate and sensory receptors transmit electrical impulses to his brain"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "question": "An absolute threshold is the amount of a stimulus needed for us to detect its presence when?",
+      "options": {
+        "a": "at least once",
+        "b": "every time",
+        "c": "at least half the time"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following describes subliminal stimuli?",
+      "options": {
+        "a": "cannot be detected by humans but may be detected by other animals",
+        "b": "not consciously detected but may affect some mental processes",
+        "c": "do not affect biological organisms but can be detected by machines"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "question": "Gianna opens the refrigerator, and light waves strike her retinas. Neurons convert the light waves into electrical impulses and send them to Gianna’s brain, which interprets them as an orange juice carton. Which event is an example of transduction?",
+      "options": {
+        "a": "the brain interpreting electrical impulses as a physical object",
+        "b": "the neurons converting light waves into electrical impulses",
+        "c": "the light waves striking the retinas at the back of the eyes"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "question": "When Damian wakes up in his new dorm room, he first sees only vague shapes. But soon he recognizes the shapes as a dresser, a chair, and a desk. What explains his change in perception?",
+      "options": {
+        "a": "Damian’s eyes were unable to focus at first because his brain was still processing a dream and storing it in his memory.",
+        "b": "Damian’s primary visual cortex processed electrical impulses from his retina very slowly because he was hungry.",
+        "c": "Damian’s brain combined sensory data with memories of similar objects to make the unfamiliar shapes meaningful."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 8,
+      "question": "Which of these describes top-down processing?",
+      "options": {
+        "a": "The brain uses previous knowledge to help process sensations.",
+        "b": "The brain creates sensations to replace those it is unable to interpret.",
+        "c": "The brain modifies sensations to make an experience more attractive."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 9,
+      "question": "As Ruth arrives at a party, she hears her host shout, “What do you want to drink?” Or that’s what she perceives he says. Her ears only pick up the word “drink.” Based on top-down processing, why does she still perceive a complete sentence?",
+      "options": {
+        "a": "She is a lip reader and is able to see the lips of her host as he speaks.",
+        "b": "Another person standing nearby repeats the question her host asks.",
+        "c": "Her brain fills in the rest of what her host says based on prior experience."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "question": "What is the gestalt principle of proximity?",
+      "options": {
+        "a": "the principle that we group objects based on how similar or dissimilar they are to each other",
+        "b": "the principle that we group objects based on how close they are to each other in space",
+        "c": "the principle that we group objects based on how easily they follow a smooth pattern"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 11,
+      "question": "What is the gestalt principle of figure-ground organization?",
+      "options": {
+        "a": "People tend to focus on the background before recognizing a figure.",
+        "b": "People have difficulty seeing details within the background of a figure.",
+        "c": "People automatically view a figure as separate from its background."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 12,
+      "question": "Which sensory neural pathway bypasses the thalamus?",
+      "options": {
+        "a": "smell",
+        "b": "touch",
+        "c": "sight"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 13,
+      "question": "According to psychologists, what is learning?",
+      "options": {
+        "a": "any measurable change in memory or knowledge that results from instruction",
+        "b": "a relatively permanent change in behavior that results from experience",
+        "c": "a biological instinct that is the natural result of maturation in a species"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 14,
+      "question": "Which of these behaviors is most likely due to learning?",
+      "options": {
+        "a": "A tenant pulls the trash and recycling bins to the curb in the front of their apartment every Monday evening.",
+        "b": "A native Floridian shivers every time the outside temperature drops below sixty degrees Fahrenheit.",
+        "c": "A ten-month old takes their first step after several weeks of standing up and wobbling."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 15,
+      "question": "Kaylee suffered from severe food poisoning after eating potato salad at a family picnic, so she now refuses to eat potato salad. Kaylee’s behavior supports which of these statements about how experience contributes to learning?",
+      "options": {
+        "a": "Biological instincts produce mental associations that trigger learning.",
+        "b": "Experience produces mental associations between stimuli and our responses.",
+        "c": "Experiences have the potential to change behaviors, but they don’t affect the brain."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 16,
+      "question": "Which of these is an example of classical conditioning?",
+      "options": {
+        "a": "A student experiences a change in heart rate when they hear the school bell.",
+        "b": "A parent gives their toddler a cup of cold water with every meal.",
+        "c": "A yoga instructor ends class with the same pose each Tuesday."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 17,
+      "question": "Why would a dog drooling when given food be considered an unconditioned response?",
+      "options": {
+        "a": "because it is a typical physiological response",
+        "b": "because the dog formed an association between the two",
+        "c": "because it is a learned response to a neutral stimuli"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 18,
+      "question": "In classical conditioning, what is extinction?",
+      "options": {
+        "a": "the process of weakening a conditioned response",
+        "b": "eliminating the presence of a conditioned response",
+        "c": "the process of removing an unconditioned response"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 19,
+      "question": "Rewarding a subject only when a specific conditioned stimulus is presented is a way to teach what?",
+      "options": {
+        "a": "extinction",
+        "b": "acquisition",
+        "c": "discrimination"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 20,
+      "question": "During classical conditioning, the neutral stimulus becomes what?",
+      "options": {
+        "a": "the unconditioned stimulus",
+        "b": "the conditioned stimulus",
+        "c": "the conditioned response"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 21,
+      "question": "Marcella’s supervisor calls her in for an unexpected meeting late in the afternoon. Even though she has only received positive feedback from this supervisor, Marcella’s hands immediately get sweaty and her heart rate picks up. Which of these best explains this reaction?",
+      "options": {
+        "a": "Marcella had positive experiences with past supervisors, but the new environment creates tension.",
+        "b": "Marcella has been classically conditioned after a negative experience with a previous supervisor.",
+        "c": "Marcella’s physiological reaction is not likely to be associated with an environmental cue at all."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 22,
+      "question": "In operant conditioning, what is an event that increases the likelihood of a behavior?",
+      "options": {
+        "a": "a stimulus",
+        "b": "a punisher",
+        "c": "a reward"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 23,
+      "question": "Jorge chooses to work from home because he is an introvert and wishes to limit his interaction with others while maintaining high productivity. When Jorge’s supervisor makes a public announcement about Jorge’s outstanding work, Jorge is embarrassed and decides not to work as hard in the future. According to operant conditioning, what is the punisher in this scenario?",
+      "options": {
+        "a": "the supervisor’s announcement",
+        "b": "Jorge’s introversion",
+        "c": "Jorge’s decrease in productivity"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 24,
+      "question": "What is operant conditioning?",
+      "options": {
+        "a": "a type of learning based on creating physiological responses",
+        "b": "a type of learning based on reinforcement and punishment",
+        "c": "a type of learning based on observation of others’ actions"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 25,
+      "question": "Which of these would be considered a positive reinforcer?",
+      "options": {
+        "a": "a principal announcing an award given to an extremely shy middle school student",
+        "b": "a mouse receiving a piece of cheese when it successfully runs a maze",
+        "c": "a parent removing a chore from their child’s list because they got an A on a test"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 26,
+      "question": "In operant conditioning, what is something that strengthens a behavior when it is removed from the environment?",
+      "options": {
+        "a": "a punisher",
+        "b": "a positive reinforcer",
+        "c": "a negative reinforcer"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 27,
+      "question": "Which of these is an example of a negative reinforcer?",
+      "options": {
+        "a": "yelling at your cat when it claws at the furniture or hops on the countertops",
+        "b": "working regular overtime shifts to make more money in a pay period",
+        "c": "decreasing the length of time your child is grounded based on their behavior"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 28,
+      "question": "In operant conditioning, what is a stimulus that is valuable but not needed for survival?",
+      "options": {
+        "a": "a primary reinforcer",
+        "b": "a secondary reinforcer",
+        "c": "a positive reinforcer"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 29,
+      "question": "What is a stimulus that is naturally reinforcing because it meets a biological need?",
+      "options": {
+        "a": "a primary reinforcer",
+        "b": "a secondary reinforcer",
+        "c": "a positive reinforcer"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 30,
+      "question": "Frank prefers the cafe on his street, but the bistro across town gives a free coffee every fifth visit. Which scheduled reinforcement type is being used at the bistro?",
+      "options": {
+        "a": "variable-ratio",
+        "b": "fixed-ratio",
+        "c": "fixed-interval"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 31,
+      "question": "Teaching complex behavior by reinforcing successive approximations of that behavior is referred to as what?",
+      "options": {
+        "a": "reinforcing",
+        "b": "shaping",
+        "c": "learning"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "question": "According to operant conditioning, what is something that causes a behavior to happen less quickly or less often?",
+      "options": {
+        "a": "a reaction",
+        "b": "a reinforcer",
+        "c": "a punisher"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 33,
+      "question": "Which of the following describes latent learning?",
+      "options": {
+        "a": "learning that is gained only gradually and with repeated experience",
+        "b": "learning that is only apparent when there is an incentive to show it",
+        "c": "learning that is acquired accidentally without conscious awareness"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 34,
+      "question": "Which type of learning occurs after watching someone else perform the behavior?",
+      "options": {
+        "a": "latent learning",
+        "b": "observational learning",
+        "c": "classical learning"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 35,
+      "question": "What is a mirror neuron?",
+      "options": {
+        "a": "a brain cell that reacts when an action is performed or observed",
+        "b": "a brain cell that reacts only when an action is performed",
+        "c": "a brain cell that reacts only when an action is observed"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 36,
+      "question": "Accessing memories is called what?",
+      "options": {
+        "a": "memory downloading",
+        "b": "memory reconstruction",
+        "c": "memory retrieval"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 37,
+      "question": "The process of converting sensory data into neural signals that the brain can preserve as memories is called what?",
+      "options": {
+        "a": "translating",
+        "b": "constructing",
+        "c": "encoding"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 38,
+      "question": "The memory process includes which steps?",
+      "options": {
+        "a": "encoding, storage, and retrieval",
+        "b": "sensing, transduction, and transmission",
+        "c": "recognition, reception, and assimilation"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 39,
+      "question": "Calissa is walking down the street in an unfamiliar neighborhood when she stumbles on an uneven section of sidewalk. She does not fall and continues on, quickly forgetting the incident. This event will be briefly stored in which stage of memory?",
+      "options": {
+        "a": "sensory memory",
+        "b": "long-term memory",
+        "c": "working memory"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 40,
+      "question": "A law student spends a weekend reading and analyzing a landmark Supreme Court decision. Because the case is central to the field of law the student plans to enter, they need their knowledge of the case to be stored in which stage of memory?",
+      "options": {
+        "a": "sensory memory",
+        "b": "working memory",
+        "c": "long-term memory"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 41,
+      "question": "How can we prevent a sensory memory from being quickly lost?",
+      "options": {
+        "a": "by paying attention to it",
+        "b": "by eating a healthy diet",
+        "c": "by getting enough sleep"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 42,
+      "question": "Most echoic memories—the sensory memories of auditory information—last for how long?",
+      "options": {
+        "a": "a few seconds",
+        "b": "about a minute",
+        "c": "a few minutes"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 43,
+      "question": "Which of these is an example of maintenance rehearsal?",
+      "options": {
+        "a": "writing a phone number on a piece of paper",
+        "b": "dividing a phone number into groups of numbers",
+        "c": "repeating a phone number over and over"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 44,
+      "question": "Chunking is a strategy for retaining short-term memories. How does it work?",
+      "options": {
+        "a": "by arranging the information into rhyming verses",
+        "b": "by organizing information into small groups",
+        "c": "by focusing on the most important information"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 45,
+      "question": "Katrina can shop for groceries without a list because she remembers items in groups: Vegetables—peas and carrots. Fruit—apples and oranges. Baked goods—bread and bagels. Dairy products—milk, cream, and butter. What is this strategy called?",
+      "options": {
+        "a": "chunking",
+        "b": "classifying",
+        "c": "clustering"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 46,
+      "question": "Where are long-term memories stored?",
+      "options": {
+        "a": "only in part of the midbrain",
+        "b": "in the hindbrain and midbrain",
+        "c": "throughout the brain"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 47,
+      "question": "Long-term memories are stored in networks of related knowledge called what?",
+      "options": {
+        "a": "internets",
+        "b": "schemas",
+        "c": "linkages"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 48,
+      "question": "The brain’s ability to encode and retrieve both explicit and implicit memories is called what?",
+      "options": {
+        "a": "double administration",
+        "b": "dual processing",
+        "c": "twin reminiscence"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 49,
+      "question": "Which type of memory is processed quickly and without conscious awareness?",
+      "options": {
+        "a": "implicit",
+        "b": "explicit",
+        "c": "working"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 50,
+      "question": "The amygdala is involved in forming what sort of explicit memories?",
+      "options": {
+        "a": "those involving math skills",
+        "b": "those involving language learning",
+        "c": "those involving fear or danger"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 51,
+      "question": "A college student spends Saturday morning studying the chapter on memory in their psychology text. The knowledge that the student is acquiring is processed in which part of the brain?",
+      "options": {
+        "a": "the frontal lobes and hippocampus",
+        "b": "the medulla and pons",
+        "c": "the amygdala and basal ganglia"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 52,
+      "question": "What is encoding failure?",
+      "options": {
+        "a": "the failure of information to be preserved in long-term memory",
+        "b": "the failure of information to be retrieved from long-term memory",
+        "c": "the failure of information to be stored in long-term memory"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 53,
+      "question": "Haleema studied French in high school and got mostly A’s. But she hasn’t spoken any French since graduating, and now, in her mid-30s, she has a hard time recalling much of what she learned. This illustrates which type of forgetting?",
+      "options": {
+        "a": "amnesia",
+        "b": "retrieval failure",
+        "c": "decay"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 54,
+      "question": "What happens when new information makes it difficult to remember older information?",
+      "options": {
+        "a": "proactive interference",
+        "b": "retroactive interference",
+        "c": "previous mediation"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 55,
+      "question": "Farima memorized her shopping list rather than bringing it to the store. Now, at the store, she can remember items at the beginning and end of the list but not those in the middle. This illustrates which phenomenon?",
+      "options": {
+        "a": "the serial position effect",
+        "b": "the first and last effect",
+        "c": "the excluded middle effect"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 56,
+      "question": "A student must recite a famous speech from memory for a public speaking class. Although the assignment is not due for weeks, they spend time each day working on memorizing and delivering it. What is this learning strategy called?",
+      "options": {
+        "a": "allocated training",
+        "b": "occasional study",
+        "c": "distributed practice"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 57,
+      "question": "What usually causes amnesia?",
+      "options": {
+        "a": "poor nutrition",
+        "b": "insufficient sleep",
+        "c": "damage to the brain"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 58,
+      "question": "Which of these is an example of retrograde amnesia?",
+      "options": {
+        "a": "inability to form and store a memory of an event, such as a conversation",
+        "b": "inability to remember a significant event from the past, such as attending college",
+        "c": "inability to stand and walk or run without assistance from others"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 59,
+      "question": "Information retrieved from long-term memory and processed in working memory is often changed in some way. What can result from this?",
+      "options": {
+        "a": "Our memories can be inaccurate.",
+        "b": "Our memories can be erased.",
+        "c": "Our memories can be improved."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 60,
+      "question": "Incorrectly identifying the source of a memory is called what?",
+      "options": {
+        "a": "miscreditation",
+        "b": "misdesignation",
+        "c": "misattribution"
+      },
+      "answer": "c"
+    }
+  ],
+  "answer_key_source": "Bolded options in Exam 2 Review Spring 2026.docx",
+  "has_answer_key": true
+}
