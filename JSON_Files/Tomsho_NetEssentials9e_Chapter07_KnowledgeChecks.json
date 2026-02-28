@@ -1,0 +1,42 @@
+{
+  "title": "Guide to Networking Essentials, 9e - Chapter 7",
+  "source_file": "Tomsho_GuidetoNetEssentials_9e_PPT_07.pptx",
+  "created_date": "2026-02-28",
+  "question_count": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "At what layer of the OSI model would you find the function of bit encoding?",
+      "options": {
+          "a": "Layer 1",
+          "b": "Layer 2",
+          "c": "Layer 3",
+          "d": "Layer 4"
+        },
+      "answer": "a",
+      "explanation": "The Physical layer specifies how to encode 1s and 0s, bit signals. Encoding is representing 0s and 1s by a physical signal, such as electrical voltage or a light pulse.",
+      "source": {
+        "file": "Tomsho_GuidetoNetEssentials_9e_PPT_07.pptx",
+        "slide_question_index": 29,
+        "slide_answer_index": 30
+      }
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a function of the LLC sublayer?",
+      "options": {
+          "a": "Manages access to the physical medium",
+          "b": "Deals with physical addresses",
+          "c": "Communicates with the Network layer",
+          "d": "Communicates with the NIC"
+        },
+      "answer": "c",
+      "explanation": "The Logical Link Control (LLC) sublayer (defined by 802.2) controls data-link communication and defines the use of logical interface points, called “service access points (SAPs),” that other computers can use to transfer information from this sublayer to the upper OSI layers. It’s also responsible for error recovery in some situations and is the sublayer that communicates with the Network layer.",
+      "source": {
+        "file": "Tomsho_GuidetoNetEssentials_9e_PPT_07.pptx",
+        "slide_question_index": 38,
+        "slide_answer_index": 39
+      }
+    }
+  ]
+}

@@ -17,8 +17,14 @@ Expected JSON format (minimum):
   ]
 }
 
+The program no longer assumes exactly three answer choices.  Each question's
+"options" object may contain any number of labeled choices ("a","b","c","d",
+"1","2", etc.); the runner will display whatever keys are present and only
+accept those as valid responses.
+
 Answer key support (optional per-question):
-- "answer": "a" | "b" | "c"
+- "answer": "a" | "b" | "c"  # or any other label matching an option
+- "explanation": "..."           # optional text shown after the answer
 
 Usage:
   python3 cli_quiz.py
@@ -67,7 +73,8 @@ ANSI_BG_RED = "\033[41m"
 ANSI_BG_GREEN = "\033[42m"
 ANSI_BG_YELLOW = "\033[43m"
 
-VALID_INPUTS = {"a", "b", "c", "s", "q"}
+# only keep control commands globally; valid answer choices are computed per-question
+SKIP_QUIT_INPUTS = {"s", "q"}
 
 
 @dataclass
@@ -75,7 +82,8 @@ class QuizQuestion:
     qid: Any
     text: str
     options: Dict[str, str]
-    answer: Optional[str] = None  # 'a'/'b'/'c' if present
+    answer: Optional[str] = None  # label of correct choice if present
+    explanation: Optional[str] = None  # optional text to show after answering
 
 
 def supports_color() -> bool:
@@ -101,13 +109,18 @@ def load_json(path: Path) -> Dict[str, Any]:
 
 
 def normalize_options(opts: Any) -> Dict[str, str]:
+    """Return a cleaned mapping of option keys to text.
+
+    The quiz JSON may use arbitrary keys (typically letters), so we accept
+    any string key and lowercase it.  Non-string values are ignored.
+    """
     out: Dict[str, str] = {}
     if not isinstance(opts, dict):
         return out
     for k, v in opts.items():
         if isinstance(k, str) and isinstance(v, str):
             kk = k.strip().lower()
-            if kk in {"a", "b", "c"}:
+            if kk:
                 out[kk] = v.strip()
     return out
 
@@ -115,7 +128,7 @@ def normalize_options(opts: Any) -> Dict[str, str]:
 def normalize_answer(ans: Any) -> Optional[str]:
     if isinstance(ans, str):
         a = ans.strip().lower()
-        if a in {"a", "b", "c"}:
+        if a:
             return a
     return None
 
@@ -132,8 +145,14 @@ def parse_questions(data: Dict[str, Any]) -> List[QuizQuestion]:
         text = str(q.get("question", "")).strip()
         opts = normalize_options(q.get("options"))
         ans = normalize_answer(q.get("answer"))
+        # only keep the answer if it matches one of the options
+        if ans is not None and ans not in opts:
+            ans = None
+        expl = None
+        if isinstance(q.get("explanation"), str):
+            expl = q.get("explanation").strip()
         if text and len(opts) >= 2:
-            questions.append(QuizQuestion(qid=qid, text=text, options=opts, answer=ans))
+            questions.append(QuizQuestion(qid=qid, text=text, options=opts, answer=ans, explanation=expl))
     if not questions:
         raise SystemExit("Error: no valid questions found in JSON.")
     return questions
@@ -171,37 +190,52 @@ def ask_question(q: QuizQuestion, idx: int, total: int, color_on: bool) -> Tuple
     print(c(header, ANSI_BOLD, enable=color_on))
     print(q.text + "\n")
 
-    for letter in ("a", "b", "c"):
-        if letter in q.options:
-            print(f"  {c(letter + ')', ANSI_CYAN, ANSI_BOLD, enable=color_on)} {q.options[letter]}")
-    print("\nEnter a/b/c, s=skip, q=quit")
+    # show all available options in sorted order so the output is stable
+    sorted_keys = sorted(q.options.keys())
+    for key in sorted_keys:
+        print(f"  {c(key + ')', ANSI_CYAN, ANSI_BOLD, enable=color_on)} {q.options[key]}")
 
+    # build prompt string dynamically
+    opts_display = "/".join(sorted_keys)
+    print(f"\nEnter {opts_display}, s=skip, q=quit")
+
+    valid_choices = set(sorted_keys) | SKIP_QUIT_INPUTS
     while True:
         choice = input("> ").strip().lower()
-        if choice in VALID_INPUTS:
+        if choice in valid_choices:
             if choice == "q":
                 return ("quit", None)
             if choice == "s":
                 return ("skip", None)
             return ("answer", choice)
-        print(c("Please enter one of: a, b, c, s, q", ANSI_YELLOW, enable=color_on))
+        prompt = f"Please enter one of: {opts_display}, s, q"
+        print(c(prompt, ANSI_YELLOW, enable=color_on))
 
 
 def immediate_feedback(q: QuizQuestion, user_choice: str, color_on: bool) -> bool:
     """
     Returns True if correct, False if incorrect (or unknown if no answer key: returns False but prints neutral).
+
+    If the question supplies an ``explanation`` string, it will be printed after
+    the normal feedback message.
     """
     if q.answer is None:
         print(c("Recorded.", ANSI_BLUE, enable=color_on))
+        if q.explanation:
+            print(c(q.explanation, ANSI_DIM, enable=color_on))
         return False
 
     if user_choice == q.answer:
         print(c("Correct!", ANSI_GREEN, ANSI_BOLD, enable=color_on))
+        if q.explanation:
+            print(c(q.explanation, ANSI_DIM, enable=color_on))
         return True
 
     correct_text = q.options.get(q.answer, "(missing option text)")
     msg = f"Incorrect. Correct answer: {q.answer}) {correct_text}"
     print(c(msg, ANSI_RED, ANSI_BOLD, enable=color_on))
+    if q.explanation:
+        print(c(q.explanation, ANSI_DIM, enable=color_on))
     return False
 
 
