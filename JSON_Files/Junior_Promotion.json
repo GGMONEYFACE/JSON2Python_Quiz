@@ -1,0 +1,114 @@
+{
+  "title": "Cyber Unit - Junior Promotion",
+  "question_count": 6,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which part of the CIA Triad means only authorized people can see data?",
+      "options": {
+          "a": "Confidentiality",
+          "b": "Integrity",
+          "c": "Availability",
+          "d": "Central Intelligence Agency"
+        },
+      "answer": "a",
+      "explanation": "Confidentiality ensures data is only accessible to those with proper authorization."
+    },
+    {
+      "id": 2,
+      "question": "What does 'Integrity' mean in cybersecurity?",
+      "options": {
+          "a": "Data is always fast",
+          "b": "Data is accurate and unmodified",
+          "c": "Data is encrypted",
+          "d": "Data is deleted after use"
+        },
+      "answer": "b",
+      "explanation": "Integrity means data remains accurate, consistent, and unaltered by unauthorized parties."
+    },
+    {
+      "id": 3,
+      "question": "What is cybersecurity primarily trying to protect?",
+      "options": {
+          "a": "Hardware prices",
+          "b": "Internet speed",
+          "c": "Digital systems, networks, and data",
+          "d": "Phone batteries"
+        },
+      "answer": "c",
+      "explanation": "Cybersecurity focuses on protecting digital systems, networks, programs, and the data within them."
+    },
+    {
+      "id": 4,
+      "question": "What is phishing?",
+      "options": {
+          "a": "Hacking a Wi-Fi router",
+          "b": "A type of firewall bypass",
+          "c": "Tricking users into revealing sensitive info",
+          "d": "Encrypting (locking) files and demanding payment"
+        },
+      "answer": "c",
+      "explanation": "Phishing uses deceptive emails or websites to trick users into giving up sensitive information like passwords."
+    },
+    {
+      "id": 5,
+      "question": "What does ransomware do?",
+      "options": {
+          "a": "Sends spam emails",
+          "b": "Encrypting (locking) files and demanding payment",
+          "c": "Tricking users into revealing sensitive info",
+          "d": "Steals your browser history"
+        },
+      "answer": "b",
+      "explanation": "Ransomware encrypts your files and demands a ransom payment — usually in cryptocurrency — to restore access."
+    },
+    {
+      "id": 6,
+      "question": "What is a DDoS attack?",
+      "options": {
+          "a": "Tricking users into revealing sensitive info",
+          "b": "Stealing credit card information",
+          "c": "Encrypting (locking) files and demanding payment",
+          "d": "Overwhelming a server with traffic"
+        },
+      "answer": "d",
+      "explanation": "A Distributed Denial of Service (DDoS) attack floods a server with massive amounts of traffic to knock it offline."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a function of the LLC sublayer?",
+      "options": {
+          "a": "Manages access to the physical medium",
+          "b": "Deals with physical addresses",
+          "c": "Communicates with the Network layer",
+          "d": "Communicates with the NIC"
+        },
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a function of the LLC sublayer?",
+      "options": {
+          "a": "Manages access to the physical medium",
+          "b": "Deals with physical addresses",
+          "c": "Communicates with the Network layer",
+          "d": "Communicates with the NIC"
+        },
+      "answer": "c",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a function of the LLC sublayer?",
+      "options": {
+          "a": "Manages access to the physical medium",
+          "b": "Deals with physical addresses",
+          "c": "Communicates with the Network layer",
+          "d": "Communicates with the NIC"
+        },
+      "answer": "c",
+      "explanation": ""
+    }
+  ]
+}
