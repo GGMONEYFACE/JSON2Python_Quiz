@@ -75,39 +75,75 @@
       "explanation": "A Distributed Denial of Service (DDoS) attack floods a server with massive amounts of traffic to knock it offline."
     },
     {
-      "id": 2,
-      "question": "Which of the following is a function of the LLC sublayer?",
+      "id": 7,
+      "question": "Which password is strongest?",
       "options": {
-          "a": "Manages access to the physical medium",
-          "b": "Deals with physical addresses",
-          "c": "Communicates with the Network layer",
-          "d": "Communicates with the NIC"
+          "a": "P@ssW0rd123",
+          "b": "Password123",
+          "c": "T!g3r$unR1se#42",
+          "d": "11235813213455"
         },
       "answer": "c",
-      "explanation": ""
+      "explanation": "T!g3r$unR1se#42 uses uppercase, lowercase, numbers, and symbols with good length — maximizing entropy."
     },
     {
-      "id": 2,
-      "question": "Which of the following is a function of the LLC sublayer?",
+      "id": 8,
+      "question": "What does MFA stand for?",
       "options": {
-          "a": "Manages access to the physical medium",
-          "b": "Deals with physical addresses",
-          "c": "Communicates with the Network layer",
-          "d": "Communicates with the NIC"
+          "a": "Multiple File Access",
+          "b": "Multi-Factor Authentication",
+          "c": "Managed File Archive",
+          "d": "Main Firewall Application"
         },
-      "answer": "c",
-      "explanation": ""
+      "answer": "b",
+      "explanation": "MFA stands for Multi-Factor Authentication — requiring two or more verification methods to log in."
     },
     {
-      "id": 2,
-      "question": "Which of the following is a function of the LLC sublayer?",
+      "id": 9,
+      "question": "What is a password manager?",
       "options": {
-          "a": "Manages access to the physical medium",
-          "b": "Deals with physical addresses",
-          "c": "Communicates with the Network layer",
-          "d": "Communicates with the NIC"
+          "a": "A tool that generates and stores strong passwords securely",
+          "b": "A person who is in charge of making sure employees rotate passwords",
+          "c": "A type of malware that steals passwords and adds them to password wordlists",
+          "d": "A nickname for a notebook where people write down passwords"
+        },
+      "answer": "a",
+      "explanation": "Password managers generate and securely store unique passwords for every account, requiring only one master password."
+    },
+    {
+      "id": 10,
+      "question": "What is spear phishing?",
+      "options": {
+          "a": "A targeted phishing attack aimed at a specific person",
+          "b": "A type of targetted phishing where you try to find every account with the same password",
+          "c": "It's not a real term",
+          "d": "It refers to using a long antenna called a 'spear'."
+        },
+      "answer": "a",
+      "explanation": "Spear phishing targets specific individuals using personalized information gathered from research."
+    },
+    {
+      "id": 11,
+      "question": "You get an email saying 'Your account will be deleted in 24 hours — click now!' This is likely...",
+      "options": {
+          "a": "A legitimate notice",
+          "b": "A spam email, but non malicious",
+          "c": "A phishing attempt using 'urgency'",
+          "d": "An error from the company"
         },
       "answer": "c",
+      "explanation": "Urgency is a classic phishing tactic designed to make you act before you think critically."
+    },
+    {
+      "id": 12,
+      "question": "What is 'vishing'?",
+      "options": {
+          "a": "A type of virus",
+          "b": "A type of worm",
+          "c": "Phishing by using visible aspects",
+          "d": "Phishing using phone calls/voice"
+        },
+      "answer": "d",
       "explanation": ""
     }
   ]
