@@ -145,6 +145,42 @@
         },
       "answer": "d",
       "explanation": "Vishing (voice phishing) uses phone calls to impersonate legitimate organizations and extract sensitive information."
+    },
+    {
+      "id": 13,
+      "question": "What does HTTPS provide that HTTP does not?",
+      "options": {
+          "a": "The option to accept cookies",
+          "b": "Faster loading from server-side processing",
+          "c": "Encrypted communication ",
+          "d": "Larger file support"
+        },
+      "answer": "c",
+      "explanation": "HTTPS uses TLS/SSL to encrypt all data in transit, preventing eavesdropping and tampering."
+    },
+    {
+      "id": 14,
+      "question": "What is a firewall?",
+      "options": {
+          "a": "A type of antivirus that blocks new malware from running",
+          "b": "A system that monitors and controls network traffic",
+          "c": "The physical wall seperating the server racks from the public",
+          "d": "A security term for the 2FA code your phone gives you"
+        },
+      "answer": "b",
+      "explanation": "A firewall monitors network traffic and applies rules to allow or block connections based on security policy."
+    },
+    {
+      "id": 15,
+      "question": "What does a VPN primarily do?",
+      "options": {
+          "a": "Prevent users from being caught while pirating movies",
+          "b": "Helps users cheat during competitions",
+          "c": "Stops users from being able to pirate a company's content",
+          "d": "Encrypt a users connection and mask their IP"
+        },
+      "answer": "d",
+      "explanation": "A VPN creates an encrypted tunnel that hides your IP address and protects your traffic from eavesdropping."
     }
   ]
 }
